@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1845bd81edc-30f2b28bed29b5e5": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "hungary.db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\dev\\eclipse-workspace\\osm2sqlite\\hungary.db",
+				"url": "jdbc:sqlite:C:\\Users\\dev\\eclipse-workspace\\osm2sqlite\\hungary.db",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

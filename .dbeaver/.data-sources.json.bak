@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1845bd5c2fe-1a0be47f024bffdd": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "sqlite-jdbc-3.39.4.0.jar",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\dev\\Downloads\\sqlite-jdbc-3.39.4.0.jar",
+				"url": "jdbc:sqlite:C:\\Users\\dev\\Downloads\\sqlite-jdbc-3.39.4.0.jar",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
